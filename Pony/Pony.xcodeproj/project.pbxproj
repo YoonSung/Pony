@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677921DEAB37F82C63C5445C /* Assets.xcassets */; };
+		6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67792753503D9C214AF518D6 /* Pony.xcdatamodeld */; };
+		6779255B58CCCB766DDD10C5 /* PonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677922339C3797E6BD651D8F /* PonyTests.swift */; };
+		677925A6C14E994E56490583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792682CCDCB51B19A954A0 /* ViewController.swift */; };
+		677925EC510E95621483F933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67792BE38611E8C7462ABA2D /* Main.storyboard */; };
+		67792CBFCF5104D237CC9E28 /* PonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792DBA78F5CACE05C7666B /* PonyUITests.swift */; };
+		67792CEA9B0538EEC8C11D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792899183F4F963F62C197 /* AppDelegate.swift */; };
+		67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779264D78BFCEA38C90B670 /* CountingLabel.swift */; };
+		67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67792461FB21A286A68C6375 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67792B55A8049A3BB39C6B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67792772EA13C3FF650181CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67792CFAB33FDEA59A5EC1A8;
+			remoteInfo = Pony;
+		};
+		67792C6CBC46C55CA09E8935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67792772EA13C3FF650181CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67792CFAB33FDEA59A5EC1A8;
+			remoteInfo = Pony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		677921CE933299C94837D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		677921DEAB37F82C63C5445C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677922339C3797E6BD651D8F /* PonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyTests.swift; sourceTree = "<group>"; };
+		677922347C77CACE9A2EEE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		67792247822EF183C4D0BC26 /* PonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67792333E2B42BBB1CA7DD8F /* Pony.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pony.xcdatamodel; sourceTree = "<group>"; };
+		67792392268EE414D6737B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6779264D78BFCEA38C90B670 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		67792669092B66AFBE13AAEE /* Pony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67792682CCDCB51B19A954A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67792899183F4F963F62C197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67792BA11BB67997A866405F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67792CFA5EAB0A97016A4340 /* PonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67792DBA78F5CACE05C7666B /* PonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyUITests.swift; sourceTree = "<group>"; };
+		67792E2968D37E16E4D4FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6779256E81ACB9AD8CDDA7FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677926E2537AE04D9B5872F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67792DB0780152EC58E8744C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6779297A93478701851ABE10 = {
+			isa = PBXGroup;
+			children = (
+				67792ABB4C20117764097EFC /* Products */,
+				67792AA70B37831C1C46234E /* Pony */,
+				67792C16C0291FF37345644A /* PonyTests */,
+				677929FF08F46A4E7CBF02A7 /* PonyUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		677929FF08F46A4E7CBF02A7 /* PonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67792392268EE414D6737B2C /* Info.plist */,
+				67792DBA78F5CACE05C7666B /* PonyUITests.swift */,
+			);
+			path = PonyUITests;
+			sourceTree = "<group>";
+		};
+		67792AA70B37831C1C46234E /* Pony */ = {
+			isa = PBXGroup;
+			children = (
+				677922347C77CACE9A2EEE4B /* Info.plist */,
+				677921DEAB37F82C63C5445C /* Assets.xcassets */,
+				67792461FB21A286A68C6375 /* LaunchScreen.storyboard */,
+				67792899183F4F963F62C197 /* AppDelegate.swift */,
+				67792753503D9C214AF518D6 /* Pony.xcdatamodeld */,
+				67792BE38611E8C7462ABA2D /* Main.storyboard */,
+				67792682CCDCB51B19A954A0 /* ViewController.swift */,
+				6779264D78BFCEA38C90B670 /* CountingLabel.swift */,
+			);
+			path = Pony;
+			sourceTree = "<group>";
+		};
+		67792ABB4C20117764097EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67792669092B66AFBE13AAEE /* Pony.app */,
+				67792CFA5EAB0A97016A4340 /* PonyTests.xctest */,
+				67792247822EF183C4D0BC26 /* PonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67792C16C0291FF37345644A /* PonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				677921CE933299C94837D049 /* Info.plist */,
+				677922339C3797E6BD651D8F /* PonyTests.swift */,
+			);
+			path = PonyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6779233A5A945C060E226661 /* PonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67792FF73511A718202D7ABF /* Build configuration list for PBXNativeTarget "PonyUITests" */;
+			buildPhases = (
+				67792E8F00A907A7148DD4FE /* Sources */,
+				67792DB0780152EC58E8744C /* Frameworks */,
+				67792C09866BCE19C5A51E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67792BC21B706D572AC3FEE8 /* PBXTargetDependency */,
+			);
+			name = PonyUITests;
+			productName = PonyUITests;
+			productReference = 67792247822EF183C4D0BC26 /* PonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		677928EDA5BA40905725BE2D /* PonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67792D1CFC6A8900F110F125 /* Build configuration list for PBXNativeTarget "PonyTests" */;
+			buildPhases = (
+				6779295A85AB96B0D9B684D4 /* Sources */,
+				6779256E81ACB9AD8CDDA7FF /* Frameworks */,
+				677924F1C92FE7280F78AF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6779270773DF4679C4FF0DE5 /* PBXTargetDependency */,
+			);
+			name = PonyTests;
+			productName = PonyTests;
+			productReference = 67792CFA5EAB0A97016A4340 /* PonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67792CFAB33FDEA59A5EC1A8 /* Pony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67792442BD24AD6BEF0F5582 /* Build configuration list for PBXNativeTarget "Pony" */;
+			buildPhases = (
+				6779231CBC64D2435D702349 /* Sources */,
+				677926E2537AE04D9B5872F2 /* Frameworks */,
+				67792182A443D008872A7CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pony;
+			productName = Pony;
+			productReference = 67792669092B66AFBE13AAEE /* Pony.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67792772EA13C3FF650181CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = org.rbgroup;
+			};
+			buildConfigurationList = 677929F0F7DB2C258CE1E685 /* Build configuration list for PBXProject "Pony" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6779297A93478701851ABE10;
+			productRefGroup = 67792ABB4C20117764097EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67792CFAB33FDEA59A5EC1A8 /* Pony */,
+				677928EDA5BA40905725BE2D /* PonyTests */,
+				6779233A5A945C060E226661 /* PonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67792182A443D008872A7CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */,
+				67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */,
+				677925EC510E95621483F933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677924F1C92FE7280F78AF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67792C09866BCE19C5A51E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6779231CBC64D2435D702349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67792CEA9B0538EEC8C11D17 /* AppDelegate.swift in Sources */,
+				6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */,
+				677925A6C14E994E56490583 /* ViewController.swift in Sources */,
+				67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6779295A85AB96B0D9B684D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6779255B58CCCB766DDD10C5 /* PonyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67792E8F00A907A7148DD4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67792CBFCF5104D237CC9E28 /* PonyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6779270773DF4679C4FF0DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67792CFAB33FDEA59A5EC1A8 /* Pony */;
+			targetProxy = 67792C6CBC46C55CA09E8935 /* PBXContainerItemProxy */;
+		};
+		67792BC21B706D572AC3FEE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67792CFAB33FDEA59A5EC1A8 /* Pony */;
+			targetProxy = 67792B55A8049A3BB39C6B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67792461FB21A286A68C6375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67792E2968D37E16E4D4FBAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67792BE38611E8C7462ABA2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67792BA11BB67997A866405F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		677921D16AAA1D0D4BE093B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		677922E3F52585B94A19547A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.PonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pony;
+			};
+			name = Release;
+		};
+		677923B968A943E1B31F6502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.PonyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pony;
+			};
+			name = Debug;
+		};
+		6779267DF95398E13F6DFAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.Pony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		677928B0FF67382F2BDDFC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.Pony;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67792AAE4A4BE551A2C296A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pony.app/Pony";
+				INFOPLIST_FILE = PonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.PonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		67792E277874C8FF7F655418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67792EFB668535E091FA5981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pony.app/Pony";
+				INFOPLIST_FILE = PonyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pony.PonyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67792442BD24AD6BEF0F5582 /* Build configuration list for PBXNativeTarget "Pony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677928B0FF67382F2BDDFC5D /* Debug */,
+				6779267DF95398E13F6DFAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		677929F0F7DB2C258CE1E685 /* Build configuration list for PBXProject "Pony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677921D16AAA1D0D4BE093B1 /* Debug */,
+				67792E277874C8FF7F655418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67792D1CFC6A8900F110F125 /* Build configuration list for PBXNativeTarget "PonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67792AAE4A4BE551A2C296A6 /* Debug */,
+				67792EFB668535E091FA5981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67792FF73511A718202D7ABF /* Build configuration list for PBXNativeTarget "PonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677923B968A943E1B31F6502 /* Debug */,
+				677922E3F52585B94A19547A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67792753503D9C214AF518D6 /* Pony.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67792333E2B42BBB1CA7DD8F /* Pony.xcdatamodel */,
+			);
+			currentVersion = 67792333E2B42BBB1CA7DD8F /* Pony.xcdatamodel */;
+			path = Pony.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67792772EA13C3FF650181CA /* Project object */;
+}
