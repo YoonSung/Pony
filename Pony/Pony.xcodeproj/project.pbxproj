@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677921DEAB37F82C63C5445C /* Assets.xcassets */; };
+		6779225BAF634E6716EA64FD /* SMSMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */; };
 		6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67792753503D9C214AF518D6 /* Pony.xcdatamodeld */; };
 		6779255B58CCCB766DDD10C5 /* PonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677922339C3797E6BD651D8F /* PonyTests.swift */; };
 		677925A6C14E994E56490583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792682CCDCB51B19A954A0 /* ViewController.swift */; };
@@ -15,7 +16,10 @@
 		67792CBFCF5104D237CC9E28 /* PonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792DBA78F5CACE05C7666B /* PonyUITests.swift */; };
 		67792CEA9B0538EEC8C11D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792899183F4F963F62C197 /* AppDelegate.swift */; };
 		67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779264D78BFCEA38C90B670 /* CountingLabel.swift */; };
+		67792E6BAD5A21015DEBE01D /* SMSMessageParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792346AA6D13282E477124 /* SMSMessageParserTest.swift */; };
 		67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67792461FB21A286A68C6375 /* LaunchScreen.storyboard */; };
+		F7DDF3D820D6290800B06C72 /* SpendAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */; };
+		F7DDF3D920D6290800B06C72 /* SpendAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +46,19 @@
 		677922347C77CACE9A2EEE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		67792247822EF183C4D0BC26 /* PonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792333E2B42BBB1CA7DD8F /* Pony.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pony.xcdatamodel; sourceTree = "<group>"; };
+		67792346AA6D13282E477124 /* SMSMessageParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSMessageParserTest.swift; sourceTree = "<group>"; };
 		67792392268EE414D6737B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6779264D78BFCEA38C90B670 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
 		67792669092B66AFBE13AAEE /* Pony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792682CCDCB51B19A954A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67792899183F4F963F62C197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67792BA11BB67997A866405F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSMessageParser.swift; sourceTree = "<group>"; };
 		67792CFA5EAB0A97016A4340 /* PonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792DBA78F5CACE05C7666B /* PonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyUITests.swift; sourceTree = "<group>"; };
 		67792E2968D37E16E4D4FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendAlertViewController.swift; sourceTree = "<group>"; };
+		F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpendAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6779224CA054D2C83746DE2E /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */,
+				F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */,
+			);
+			path = alert;
+			sourceTree = "<group>";
+		};
 		6779297A93478701851ABE10 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +125,8 @@
 				67792BE38611E8C7462ABA2D /* Main.storyboard */,
 				67792682CCDCB51B19A954A0 /* ViewController.swift */,
 				6779264D78BFCEA38C90B670 /* CountingLabel.swift */,
+				6779224CA054D2C83746DE2E /* alert */,
+				67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */,
 			);
 			path = Pony;
 			sourceTree = "<group>";
@@ -127,6 +146,7 @@
 			children = (
 				677921CE933299C94837D049 /* Info.plist */,
 				677922339C3797E6BD651D8F /* PonyTests.swift */,
+				67792346AA6D13282E477124 /* SMSMessageParserTest.swift */,
 			);
 			path = PonyTests;
 			sourceTree = "<group>";
@@ -221,6 +241,7 @@
 			files = (
 				67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */,
 				67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */,
+				F7DDF3D920D6290800B06C72 /* SpendAlertViewController.xib in Resources */,
 				677925EC510E95621483F933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DDF3D820D6290800B06C72 /* SpendAlertViewController.swift in Sources */,
 				67792CEA9B0538EEC8C11D17 /* AppDelegate.swift in Sources */,
 				6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */,
 				677925A6C14E994E56490583 /* ViewController.swift in Sources */,
 				67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */,
+				6779225BAF634E6716EA64FD /* SMSMessageParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6779255B58CCCB766DDD10C5 /* PonyTests.swift in Sources */,
+				67792E6BAD5A21015DEBE01D /* SMSMessageParserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +525,7 @@
 				6779267DF95398E13F6DFAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		677929F0F7DB2C258CE1E685 /* Build configuration list for PBXProject "Pony" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +543,7 @@
 				67792EFB668535E091FA5981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67792FF73511A718202D7ABF /* Build configuration list for PBXNativeTarget "PonyUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +552,7 @@
 				677922E3F52585B94A19547A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

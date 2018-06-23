@@ -4,6 +4,17 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var totalDeposit: CountingLabel!
 
+    @IBAction func paste() {
+        if let copied = UIPasteboard.general.string {
+            //SMSMessageParser.
+        } else {
+            
+        }
+        
+//        let button2Alert: UIAlertView = UIAlertView(title: "Title", message: "message",
+//        delegate: self, cancelButtonTitle: "OK", otherButtonTitles: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
