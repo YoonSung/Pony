@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyPlistManager (1.0.2)
+
+DEPENDENCIES:
+  - SwiftyPlistManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyPlistManager
+
+SPEC CHECKSUMS:
+  SwiftyPlistManager: 5895924cccb7fe28deccbe14890e8aed78ae78ae
+
+PODFILE CHECKSUM: c4406d44d48f1a6c8054d1bb71ef9e41d7bea160
+
+COCOAPODS: 1.5.3

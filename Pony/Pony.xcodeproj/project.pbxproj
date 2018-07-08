@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47428B45AE9CB841E06ED345 /* Pods_PonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753542E731696D503CD68404 /* Pods_PonyUITests.framework */; };
 		67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677921DEAB37F82C63C5445C /* Assets.xcassets */; };
 		6779225BAF634E6716EA64FD /* SMSMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */; };
 		6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67792753503D9C214AF518D6 /* Pony.xcdatamodeld */; };
@@ -18,8 +19,10 @@
 		67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779264D78BFCEA38C90B670 /* CountingLabel.swift */; };
 		67792E6BAD5A21015DEBE01D /* SMSMessageParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792346AA6D13282E477124 /* SMSMessageParserTest.swift */; };
 		67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67792461FB21A286A68C6375 /* LaunchScreen.storyboard */; };
-		F7DDF3D820D6290800B06C72 /* SpendAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */; };
-		F7DDF3D920D6290800B06C72 /* SpendAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */; };
+		8A8F4B42806F3EF4CD4D33C4 /* Pods_Pony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5534E68747A1BB8807F27EA8 /* Pods_Pony.framework */; };
+		BAF9B7BB1F94B32887192DF6 /* Pods_PonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC9A6FE11113DE3EAC9D9AC /* Pods_PonyTests.framework */; };
+		F719DB6B20E99F3D003B68C7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67792703F297B02ABD89676B /* Repository.swift */; };
+		F719DB6D20E9A004003B68C7 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F719DB6C20E9A004003B68C7 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		362A332B623D62DB1CA3A113 /* Pods-Pony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pony.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pony/Pods-Pony.debug.xcconfig"; sourceTree = "<group>"; };
+		5534E68747A1BB8807F27EA8 /* Pods_Pony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F8574C171242CFA55A9383 /* Pods-PonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonyUITests/Pods-PonyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		677921CE933299C94837D049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		677921DEAB37F82C63C5445C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		677922339C3797E6BD651D8F /* PonyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyTests.swift; sourceTree = "<group>"; };
@@ -51,14 +57,20 @@
 		6779264D78BFCEA38C90B670 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
 		67792669092B66AFBE13AAEE /* Pony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792682CCDCB51B19A954A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67792703F297B02ABD89676B /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		67792899183F4F963F62C197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67792BA11BB67997A866405F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSMessageParser.swift; sourceTree = "<group>"; };
 		67792CFA5EAB0A97016A4340 /* PonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67792DBA78F5CACE05C7666B /* PonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyUITests.swift; sourceTree = "<group>"; };
 		67792E2968D37E16E4D4FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendAlertViewController.swift; sourceTree = "<group>"; };
-		F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpendAlertViewController.xib; sourceTree = "<group>"; };
+		6CC9A6FE11113DE3EAC9D9AC /* Pods_PonyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753542E731696D503CD68404 /* Pods_PonyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DF3A3AC11A88AD84D83962 /* Pods-PonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonyTests/Pods-PonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9983E4750923DD5A4CEBDECE /* Pods-PonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonyUITests/Pods-PonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE64FC285D4EE9B94094B53E /* Pods-PonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonyTests/Pods-PonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8C31B7875BD111B8CA29D96 /* Pods-Pony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pony.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pony/Pods-Pony.release.xcconfig"; sourceTree = "<group>"; };
+		F719DB6C20E9A004003B68C7 /* data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF9B7BB1F94B32887192DF6 /* Pods_PonyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8F4B42806F3EF4CD4D33C4 /* Pods_Pony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,19 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47428B45AE9CB841E06ED345 /* Pods_PonyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6779224CA054D2C83746DE2E /* alert */ = {
+		07A08310A33F957A81B5D6F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7DDF3D620D6290800B06C72 /* SpendAlertViewController.swift */,
-				F7DDF3D720D6290800B06C72 /* SpendAlertViewController.xib */,
+				5534E68747A1BB8807F27EA8 /* Pods_Pony.framework */,
+				6CC9A6FE11113DE3EAC9D9AC /* Pods_PonyTests.framework */,
+				753542E731696D503CD68404 /* Pods_PonyUITests.framework */,
 			);
-			path = alert;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6779297A93478701851ABE10 = {
@@ -102,6 +118,8 @@
 				67792AA70B37831C1C46234E /* Pony */,
 				67792C16C0291FF37345644A /* PonyTests */,
 				677929FF08F46A4E7CBF02A7 /* PonyUITests */,
+				D218695B15A49C3C14C95270 /* Pods */,
+				07A08310A33F957A81B5D6F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,8 +143,9 @@
 				67792BE38611E8C7462ABA2D /* Main.storyboard */,
 				67792682CCDCB51B19A954A0 /* ViewController.swift */,
 				6779264D78BFCEA38C90B670 /* CountingLabel.swift */,
-				6779224CA054D2C83746DE2E /* alert */,
 				67792C73BDA319E3496A5BE3 /* SMSMessageParser.swift */,
+				67792703F297B02ABD89676B /* Repository.swift */,
+				F719DB6C20E9A004003B68C7 /* data.plist */,
 			);
 			path = Pony;
 			sourceTree = "<group>";
@@ -151,6 +170,19 @@
 			path = PonyTests;
 			sourceTree = "<group>";
 		};
+		D218695B15A49C3C14C95270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				362A332B623D62DB1CA3A113 /* Pods-Pony.debug.xcconfig */,
+				E8C31B7875BD111B8CA29D96 /* Pods-Pony.release.xcconfig */,
+				88DF3A3AC11A88AD84D83962 /* Pods-PonyTests.debug.xcconfig */,
+				AE64FC285D4EE9B94094B53E /* Pods-PonyTests.release.xcconfig */,
+				9983E4750923DD5A4CEBDECE /* Pods-PonyUITests.debug.xcconfig */,
+				62F8574C171242CFA55A9383 /* Pods-PonyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67792FF73511A718202D7ABF /* Build configuration list for PBXNativeTarget "PonyUITests" */;
 			buildPhases = (
+				59171B34DB7E03938A2BB622 /* [CP] Check Pods Manifest.lock */,
 				67792E8F00A907A7148DD4FE /* Sources */,
 				67792DB0780152EC58E8744C /* Frameworks */,
 				67792C09866BCE19C5A51E76 /* Resources */,
@@ -176,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67792D1CFC6A8900F110F125 /* Build configuration list for PBXNativeTarget "PonyTests" */;
 			buildPhases = (
+				1ADFD65DED45F9550A2289E6 /* [CP] Check Pods Manifest.lock */,
 				6779295A85AB96B0D9B684D4 /* Sources */,
 				6779256E81ACB9AD8CDDA7FF /* Frameworks */,
 				677924F1C92FE7280F78AF53 /* Resources */,
@@ -194,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67792442BD24AD6BEF0F5582 /* Build configuration list for PBXNativeTarget "Pony" */;
 			buildPhases = (
+				5FCBE34864021C0444C78933 /* [CP] Check Pods Manifest.lock */,
 				6779231CBC64D2435D702349 /* Sources */,
 				677926E2537AE04D9B5872F2 /* Frameworks */,
 				67792182A443D008872A7CF3 /* Resources */,
+				09F1B6C0F4AC124EE86D6F90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +250,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = org.rbgroup;
+				TargetAttributes = {
+					67792CFAB33FDEA59A5EC1A8 = {
+						DevelopmentTeam = 4475UQ944Z;
+					};
+				};
 			};
 			buildConfigurationList = 677929F0F7DB2C258CE1E685 /* Build configuration list for PBXProject "Pony" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -241,7 +282,7 @@
 			files = (
 				67792220813F43CA6A1FCE65 /* Assets.xcassets in Resources */,
 				67792F3144DB8A7F6AFB5430 /* LaunchScreen.storyboard in Resources */,
-				F7DDF3D920D6290800B06C72 /* SpendAlertViewController.xib in Resources */,
+				F719DB6D20E9A004003B68C7 /* data.plist in Resources */,
 				677925EC510E95621483F933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,17 +303,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09F1B6C0F4AC124EE86D6F90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pony/Pods-Pony-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyPlistManager/SwiftyPlistManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyPlistManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pony/Pods-Pony-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ADFD65DED45F9550A2289E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PonyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59171B34DB7E03938A2BB622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PonyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCBE34864021C0444C78933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6779231CBC64D2435D702349 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DDF3D820D6290800B06C72 /* SpendAlertViewController.swift in Sources */,
 				67792CEA9B0538EEC8C11D17 /* AppDelegate.swift in Sources */,
 				6779241499569AADCB0E4CAF /* Pony.xcdatamodeld in Sources */,
 				677925A6C14E994E56490583 /* ViewController.swift in Sources */,
 				67792E2544F3FEFB5CA99A8F /* CountingLabel.swift in Sources */,
 				6779225BAF634E6716EA64FD /* SMSMessageParser.swift in Sources */,
+				F719DB6B20E99F3D003B68C7 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +503,7 @@
 		};
 		677922E3F52585B94A19547A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F8574C171242CFA55A9383 /* Pods-PonyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PonyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +517,7 @@
 		};
 		677923B968A943E1B31F6502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9983E4750923DD5A4CEBDECE /* Pods-PonyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PonyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -413,9 +531,12 @@
 		};
 		6779267DF95398E13F6DFAAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C31B7875BD111B8CA29D96 /* Pods-Pony.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4475UQ944Z;
 				INFOPLIST_FILE = Pony/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pony.Pony;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,9 +547,12 @@
 		};
 		677928B0FF67382F2BDDFC5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362A332B623D62DB1CA3A113 /* Pods-Pony.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4475UQ944Z;
 				INFOPLIST_FILE = Pony/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pony.Pony;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +563,7 @@
 		};
 		67792AAE4A4BE551A2C296A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DF3A3AC11A88AD84D83962 /* Pods-PonyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pony.app/Pony";
 				INFOPLIST_FILE = PonyTests/Info.plist;
@@ -503,6 +628,7 @@
 		};
 		67792EFB668535E091FA5981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE64FC285D4EE9B94094B53E /* Pods-PonyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pony.app/Pony";
 				INFOPLIST_FILE = PonyTests/Info.plist;

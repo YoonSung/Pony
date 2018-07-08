@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>startingDepositOfToday</key>
+	<integer>25000</integer>
+	<key>spendingMoneyOfToday</key>
+	<integer>0</integer>
+	<key>spendingMoneyOfYesterday</key>
+	<integer>0</integer>
+	<key>lastDate</key>
+	<date>2018-07-03T03:00:00Z</date>
+	<key>totalDeposit</key>
+	<integer>0</integer>
+</dict>
+</plist>

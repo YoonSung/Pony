@@ -46,7 +46,6 @@ class SMSMessageParser {
         // TODO let category: Category
 
         init?(_ map: [RuleKey: String]) {
-            print(map)
             guard let shopName = map[.shopName],
                   let spentMoney = map[.spentMoney]
                           .map({$0.replacingOccurrences(of: ",", with: "")
@@ -135,10 +134,8 @@ class SMSMessageParser {
             let regex = try NSRegularExpression(pattern: pattern, options: .caseInsensitive)
             let nsString = text as NSString
             let matches = regex.matches(in: text, options: [], range: NSMakeRange(0, nsString.length))
-            return matches.map {
-                let range = Range($0.range, in: text)!
-                print(range)
-                return range
+            return matches.compactMap {
+                return Range($0.range, in: text)
             }
         } catch let error as NSError {
             print("invalid regex: \(error.localizedDescription)")

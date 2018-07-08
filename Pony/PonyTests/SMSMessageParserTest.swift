@@ -69,6 +69,19 @@ KB국민카드 2*5*
         XCTAssertEqual(504671, parseResult?.accumulatedSpendMoney)
     }
 
+    func testParse_Samsung2() {
+        let sms =
+"""
+[Web발신]
+삼성4525승인 정*성
+7,100원 일시불
+07/07 17:40 푹TV
+누적1,147,337원
+"""x
+        let parseResult = SMSMessageParser.parse(smsMessage: sms)
+        print(parseResult)
+    }
+    
     func testParse_Hana() {
         let sms =
 """
